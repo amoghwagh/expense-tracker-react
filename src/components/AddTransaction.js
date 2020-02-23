@@ -15,6 +15,8 @@ export const AddTransaction = () => {
       amount: Number(amount)
     };
     addTransaction(newTransaction);
+    setText("");
+    setAmount(0);
   };
   return (
     <React.Fragment>
